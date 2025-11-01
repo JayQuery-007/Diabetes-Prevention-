@@ -1,0 +1,5 @@
+:root { --brand-primary: #0d6efd; --brand-accent: #20c997; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; }
+.navbar-brand { letter-spacing: 0.3px; }
+.card { border-radius: 0.75rem; }
+.btn { border-radius: 0.5rem; }

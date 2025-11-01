@@ -1,0 +1,601 @@
+Age,Gender,BMI,Diet_Type,Physical_Activity,Stress_Level,Sleep_Quality,Family_History,Hypertension,Cholesterol_Level,Diabetes
+20,Female,33.5,Balanced,Low,Medium,Average,Yes,No,High,0
+35,Female,24.5,Balanced,High,Medium,Average,No,No,Normal,0
+33,Female,28.2,Fast Food,Moderate,Low,Good,No,No,Normal,0
+28,Male,16.0,Balanced,High,Low,Good,No,No,Normal,0
+27,Female,19.1,Fast Food,Moderate,Medium,Poor,No,No,Normal,1
+37,Female,24.2,Fast Food,Moderate,Low,Average,No,Yes,Normal,0
+19,Male,19.6,Balanced,Moderate,High,Average,Yes,No,Normal,0
+34,Female,30.3,Balanced,Sedentary,Low,Average,No,No,High,0
+22,Female,38.0,Balanced,Moderate,Low,Good,No,No,Normal,0
+20,Female,18.9,Irregular,Moderate,Medium,Average,No,No,Normal,0
+30,Female,21.0,Fast Food,Moderate,Low,Average,Yes,No,High,0
+40,Male,27.4,Balanced,High,High,Average,No,No,Normal,1
+34,Female,35.7,Irregular,Low,Medium,Poor,No,Yes,Normal,1
+35,Male,18.7,Balanced,Moderate,Low,Average,Yes,No,Normal,1
+34,Female,27.5,Balanced,Moderate,Medium,Good,No,No,Normal,0
+36,Female,36.9,Irregular,Sedentary,Medium,Average,No,No,High,0
+29,Male,16.1,Balanced,Moderate,Medium,Average,No,No,High,0
+20,Male,18.3,Balanced,Moderate,High,Good,No,Yes,Normal,0
+37,Male,23.5,Fast Food,Sedentary,Medium,Poor,Yes,No,Normal,1
+28,Male,22.9,Balanced,Moderate,Medium,Average,No,No,Normal,0
+29,Male,30.9,Fast Food,Low,Medium,Average,No,No,High,0
+26,Male,27.4,Balanced,Low,Medium,Good,No,No,Normal,0
+22,Male,16.0,Balanced,Low,High,Good,No,No,High,0
+39,Male,29.1,Balanced,Low,Medium,Average,Yes,No,Normal,1
+35,Female,22.5,Balanced,Moderate,Medium,Poor,No,Yes,Normal,0
+32,Male,33.6,Balanced,High,Medium,Poor,Yes,No,Normal,1
+27,Male,22.2,Balanced,High,Medium,Average,No,No,Normal,0
+36,Male,22.2,Irregular,Low,High,Average,No,No,High,1
+30,Female,29.2,Balanced,Moderate,Low,Good,No,Yes,Normal,1
+28,Male,30.6,Balanced,Low,Low,Good,Yes,No,Normal,1
+28,Female,28.7,Balanced,Sedentary,Medium,Average,No,No,Normal,0
+23,Male,16.0,Balanced,Low,Medium,Good,No,No,Normal,1
+20,Male,29.2,Balanced,Moderate,Medium,Good,Yes,No,Normal,0
+30,Male,19.8,Fast Food,Moderate,Low,Average,No,Yes,Normal,1
+38,Male,27.4,Balanced,Moderate,Medium,Average,No,No,Normal,0
+19,Female,17.5,Irregular,Moderate,Medium,Good,No,No,Normal,0
+37,Male,28.7,Irregular,High,Medium,Average,Yes,Yes,High,1
+37,Male,21.2,Balanced,Low,Medium,Good,No,No,Normal,0
+24,Female,18.3,Balanced,Sedentary,Medium,Poor,No,No,High,0
+32,Female,30.3,Balanced,Moderate,Medium,Average,No,No,High,1
+21,Female,27.4,Fast Food,High,Medium,Good,No,No,Normal,0
+35,Female,22.3,Balanced,High,Medium,Average,No,Yes,Normal,1
+34,Female,34.7,Irregular,Sedentary,Medium,Average,No,No,High,1
+26,Male,23.4,Irregular,Low,Medium,Average,No,No,Normal,0
+19,Female,26.2,Irregular,Moderate,Low,Poor,No,No,Normal,0
+40,Male,27.6,Fast Food,Moderate,Low,Average,Yes,Yes,Normal,0
+28,Male,22.3,Irregular,Moderate,Medium,Average,No,No,Normal,0
+38,Female,28.8,Balanced,Moderate,High,Average,No,Yes,Normal,1
+33,Female,22.8,Balanced,Sedentary,Medium,Average,Yes,Yes,High,1
+35,Female,23.5,Balanced,Sedentary,Low,Average,Yes,No,Normal,0
+35,Male,34.2,Irregular,Moderate,Medium,Good,No,Yes,High,0
+22,Female,19.8,Fast Food,Moderate,Low,Average,No,No,Normal,0
+26,Male,16.0,Irregular,High,Medium,Average,No,No,Normal,0
+28,Female,35.7,Balanced,Sedentary,High,Average,No,No,Normal,0
+29,Female,41.3,Irregular,Low,Medium,Poor,No,Yes,Normal,1
+19,Female,23.6,Balanced,Moderate,Medium,Good,No,No,Normal,0
+30,Female,16.0,Balanced,High,Medium,Average,No,No,Normal,0
+21,Female,24.1,Irregular,Moderate,Medium,Poor,No,Yes,Normal,0
+35,Male,24.3,Balanced,Moderate,High,Good,No,No,Normal,0
+33,Male,24.9,Balanced,Sedentary,Medium,Good,No,Yes,Normal,1
+39,Male,19.3,Fast Food,Sedentary,Medium,Good,No,Yes,Normal,0
+35,Female,29.5,Balanced,Sedentary,Medium,Good,Yes,No,Normal,1
+26,Male,29.1,Balanced,High,Low,Good,Yes,No,Normal,0
+40,Male,17.0,Balanced,Moderate,Low,Average,No,No,Normal,0
+27,Female,30.2,Balanced,Moderate,Low,Average,No,Yes,Normal,0
+25,Female,38.3,Irregular,Moderate,Medium,Average,No,No,Normal,0
+38,Female,27.0,Fast Food,Moderate,High,Average,No,No,Normal,1
+26,Female,24.0,Balanced,Moderate,Medium,Average,Yes,No,Normal,0
+19,Female,25.1,Balanced,Moderate,Low,Poor,No,No,Normal,0
+28,Male,29.7,Balanced,Moderate,Low,Average,No,No,Normal,0
+36,Female,16.0,Fast Food,High,Medium,Good,No,No,Normal,0
+22,Female,27.0,Irregular,Moderate,High,Good,No,Yes,High,0
+28,Female,23.7,Irregular,Moderate,Medium,Average,No,No,High,1
+20,Male,37.1,Balanced,Low,Medium,Average,No,Yes,Normal,1
+33,Female,25.0,Balanced,Low,High,Average,Yes,No,Normal,0
+28,Female,36.0,Balanced,High,Low,Average,No,Yes,Normal,0
+25,Female,19.4,Fast Food,Moderate,Medium,Good,No,No,Very High,0
+23,Male,29.5,Balanced,Low,High,Good,No,No,Normal,0
+30,Female,27.9,Fast Food,High,Medium,Good,No,No,Normal,0
+33,Female,20.8,Fast Food,Moderate,Low,Good,No,No,Normal,0
+39,Female,27.1,Balanced,Low,High,Good,No,No,Normal,0
+28,Male,33.3,Balanced,Moderate,High,Average,Yes,Yes,Normal,0
+21,Female,24.1,Balanced,Low,Medium,Poor,No,No,Normal,0
+37,Female,16.0,Balanced,Moderate,Medium,Poor,No,No,Normal,1
+32,Male,25.9,Balanced,Moderate,Low,Average,No,No,Normal,0
+34,Female,20.6,Fast Food,Low,High,Average,No,No,High,1
+20,Male,23.9,Balanced,Low,Medium,Poor,No,No,High,0
+25,Female,25.5,Balanced,Moderate,Low,Good,Yes,No,Normal,0
+35,Male,16.0,Fast Food,Low,Medium,Poor,No,No,Normal,0
+37,Female,16.3,Irregular,High,High,Good,No,Yes,Normal,0
+28,Female,28.9,Balanced,Low,High,Good,No,No,High,1
+36,Female,22.9,Irregular,Moderate,Low,Average,No,No,High,1
+37,Female,16.0,Irregular,Moderate,Low,Average,No,No,Normal,0
+26,Female,30.7,Fast Food,Moderate,High,Average,No,No,High,1
+38,Male,27.6,Fast Food,Low,High,Average,No,No,Normal,1
+24,Male,21.7,Balanced,High,Medium,Poor,No,Yes,Normal,1
+23,Female,18.1,Irregular,High,Medium,Good,Yes,No,Normal,0
+33,Female,31.0,Balanced,Low,Medium,Average,Yes,No,Normal,0
+32,Male,28.1,Irregular,Low,Medium,Average,Yes,No,Normal,0
+21,Male,40.3,Fast Food,Sedentary,Low,Good,Yes,No,Normal,1
+37,Female,28.5,Balanced,Moderate,Low,Average,Yes,Yes,High,0
+22,Female,28.3,Balanced,Low,Low,Average,Yes,No,Normal,0
+36,Male,25.0,Fast Food,Low,High,Average,Yes,No,High,0
+18,Male,30.9,Fast Food,Moderate,Low,Poor,Yes,Yes,High,1
+36,Male,29.8,Balanced,High,Low,Average,Yes,No,Normal,0
+36,Female,33.5,Fast Food,Moderate,Medium,Average,Yes,Yes,High,1
+35,Male,22.9,Irregular,Sedentary,Low,Average,No,No,Normal,0
+33,Female,23.4,Balanced,Moderate,Low,Poor,No,Yes,Normal,0
+28,Male,23.1,Balanced,Moderate,Medium,Average,No,No,Normal,0
+34,Male,30.7,Balanced,Moderate,Medium,Average,Yes,No,Normal,0
+24,Female,35.0,Irregular,Moderate,Medium,Average,No,No,High,1
+35,Female,23.2,Balanced,Low,High,Poor,Yes,No,Normal,1
+30,Female,23.5,Irregular,Low,Low,Poor,Yes,No,Normal,1
+28,Female,27.9,Balanced,Moderate,High,Average,Yes,No,Normal,0
+29,Female,24.5,Fast Food,High,High,Poor,No,No,Normal,0
+31,Female,31.7,Balanced,Low,High,Average,Yes,Yes,High,0
+18,Female,16.0,Balanced,Moderate,Medium,Good,Yes,Yes,Normal,0
+21,Male,21.0,Irregular,Moderate,Medium,Average,Yes,No,High,0
+23,Male,21.3,Balanced,Moderate,Medium,Good,Yes,Yes,Normal,1
+20,Female,16.0,Fast Food,High,Medium,Poor,No,No,High,0
+28,Male,20.2,Irregular,High,Low,Poor,No,No,Normal,0
+33,Female,20.5,Irregular,High,High,Good,No,Yes,Normal,1
+33,Female,24.8,Irregular,Low,Medium,Good,Yes,No,Normal,1
+28,Male,32.7,Balanced,Moderate,Medium,Good,No,No,Normal,0
+37,Female,24.5,Fast Food,Moderate,Medium,Poor,Yes,No,High,0
+31,Male,19.8,Irregular,Low,Low,Good,Yes,No,Normal,0
+19,Female,25.7,Balanced,Low,Medium,Average,No,Yes,Normal,0
+35,Male,32.3,Balanced,Low,Medium,Average,No,No,High,1
+31,Male,20.1,Irregular,Moderate,Medium,Poor,No,No,Normal,0
+32,Female,20.5,Balanced,Moderate,Medium,Good,Yes,No,Normal,0
+31,Female,29.4,Fast Food,Low,Low,Poor,No,No,Very High,0
+30,Male,24.7,Irregular,High,Medium,Good,No,No,Normal,0
+20,Female,29.9,Fast Food,Sedentary,Medium,Average,Yes,Yes,High,1
+30,Female,25.9,Balanced,Low,High,Good,No,No,Normal,1
+36,Male,30.2,Balanced,Sedentary,Low,Good,Yes,Yes,High,1
+24,Female,19.8,Balanced,Low,Medium,Good,No,No,Normal,0
+31,Female,25.9,Balanced,Sedentary,Low,Poor,No,Yes,Normal,0
+18,Male,24.7,Irregular,Sedentary,Medium,Poor,No,No,Normal,0
+25,Female,18.7,Irregular,Low,Medium,Average,No,No,High,0
+28,Female,16.6,Balanced,High,Medium,Average,No,No,Normal,0
+40,Female,30.1,Balanced,Sedentary,High,Poor,Yes,No,Very High,1
+22,Female,23.9,Irregular,Sedentary,Low,Poor,No,Yes,Normal,1
+24,Female,19.9,Balanced,Sedentary,Medium,Average,No,No,Normal,1
+27,Male,25.4,Fast Food,Moderate,Low,Poor,No,Yes,High,0
+40,Female,32.8,Balanced,Low,Low,Poor,No,No,Normal,0
+37,Male,16.0,Fast Food,High,Medium,Good,Yes,No,Normal,0
+18,Female,17.0,Balanced,Moderate,Low,Average,No,No,High,0
+23,Male,20.5,Fast Food,Moderate,Medium,Good,Yes,No,Normal,1
+36,Male,34.8,Balanced,Moderate,Medium,Good,No,No,Normal,0
+19,Male,27.7,Fast Food,Moderate,Medium,Poor,No,No,Normal,0
+37,Female,30.6,Balanced,Low,Medium,Good,No,Yes,Normal,0
+24,Male,19.2,Balanced,High,Medium,Average,No,No,Normal,1
+39,Male,19.3,Fast Food,Low,Medium,Average,Yes,No,Normal,0
+24,Female,28.7,Balanced,High,Low,Poor,No,No,Normal,0
+27,Female,26.3,Balanced,High,Low,Poor,No,No,Normal,0
+33,Male,29.3,Balanced,Moderate,Medium,Poor,No,No,Normal,0
+20,Female,24.9,Balanced,Moderate,High,Average,No,No,Normal,1
+30,Male,27.7,Balanced,Moderate,Low,Good,Yes,No,Normal,0
+29,Male,26.9,Irregular,Sedentary,Medium,Average,Yes,No,Normal,0
+36,Female,30.7,Balanced,High,Medium,Good,No,No,Normal,0
+40,Male,30.8,Irregular,Moderate,High,Good,Yes,No,High,0
+33,Female,16.3,Irregular,Low,Medium,Average,Yes,No,Normal,0
+27,Female,16.0,Balanced,Low,Medium,Poor,No,No,Normal,0
+27,Female,32.0,Fast Food,Moderate,Medium,Good,Yes,No,Normal,1
+27,Male,33.1,Irregular,Sedentary,High,Average,No,No,Normal,0
+36,Female,19.9,Fast Food,High,Low,Poor,Yes,Yes,High,0
+25,Female,16.0,Balanced,Low,High,Average,Yes,No,High,1
+21,Male,26.6,Balanced,High,Low,Good,No,No,High,0
+25,Male,31.6,Balanced,Moderate,High,Average,Yes,No,Normal,0
+18,Male,36.8,Fast Food,High,Low,Average,Yes,No,Normal,0
+20,Female,29.1,Irregular,Low,Low,Poor,No,No,Normal,1
+20,Female,23.8,Irregular,Moderate,Low,Poor,No,Yes,Normal,1
+35,Male,20.6,Balanced,Sedentary,Medium,Poor,Yes,Yes,Normal,0
+34,Female,26.1,Fast Food,Moderate,Medium,Good,Yes,No,Normal,0
+34,Female,24.2,Balanced,Moderate,Low,Good,No,No,Normal,0
+28,Female,19.9,Irregular,Sedentary,Medium,Poor,No,No,High,0
+34,Male,38.3,Balanced,Low,Medium,Average,No,No,Normal,0
+21,Male,36.7,Irregular,Low,Medium,Poor,No,No,Normal,0
+38,Male,32.8,Irregular,Moderate,High,Poor,No,No,High,0
+29,Female,20.5,Balanced,Moderate,Medium,Average,No,No,High,0
+39,Female,31.1,Balanced,Low,Low,Average,No,No,Normal,0
+21,Female,29.8,Irregular,Moderate,Low,Average,No,No,Normal,0
+29,Male,28.7,Balanced,High,High,Average,No,No,Normal,0
+34,Male,33.5,Fast Food,Moderate,Low,Average,No,No,Normal,1
+29,Male,29.8,Irregular,Moderate,Medium,Poor,Yes,No,Normal,0
+28,Female,30.4,Fast Food,High,High,Poor,No,No,Normal,0
+21,Male,29.8,Balanced,Moderate,High,Good,No,No,Normal,0
+26,Female,28.0,Balanced,High,Medium,Good,No,No,Normal,0
+23,Female,16.0,Balanced,Moderate,Medium,Good,No,No,Normal,0
+24,Male,26.5,Irregular,Sedentary,Medium,Good,No,No,High,1
+33,Male,22.7,Balanced,Moderate,Medium,Average,No,No,Normal,1
+32,Male,18.3,Balanced,Low,Low,Good,No,No,Normal,0
+31,Female,36.1,Balanced,High,Low,Average,No,No,Normal,0
+26,Female,36.4,Irregular,Moderate,Medium,Poor,No,Yes,High,1
+40,Male,34.2,Balanced,Low,Low,Poor,No,No,Normal,1
+20,Male,27.5,Irregular,Low,Medium,Poor,Yes,Yes,High,1
+25,Female,34.1,Fast Food,Moderate,Medium,Poor,Yes,No,Normal,1
+20,Male,26.1,Irregular,Low,High,Average,No,No,Normal,0
+25,Male,27.2,Irregular,Moderate,High,Good,No,No,Normal,1
+40,Male,19.4,Irregular,Low,Medium,Good,No,No,Normal,0
+26,Male,28.4,Irregular,Moderate,Medium,Average,No,No,High,0
+38,Male,26.4,Balanced,Moderate,Low,Poor,No,No,Normal,0
+29,Female,18.2,Irregular,Moderate,Medium,Good,No,No,Normal,0
+34,Female,25.7,Fast Food,Moderate,Low,Average,No,No,Normal,0
+28,Female,25.5,Fast Food,Low,High,Poor,No,No,Normal,0
+24,Female,36.8,Irregular,Moderate,High,Average,No,No,Normal,1
+35,Female,31.4,Irregular,Moderate,High,Average,Yes,No,Normal,1
+40,Male,26.1,Fast Food,Moderate,High,Average,Yes,No,High,1
+24,Male,27.5,Balanced,Low,High,Good,No,No,High,0
+35,Female,26.3,Balanced,Low,Low,Good,No,No,High,0
+24,Male,24.8,Balanced,Low,High,Average,No,No,Normal,0
+34,Female,19.5,Balanced,Moderate,Medium,Poor,Yes,No,Normal,0
+36,Female,25.1,Balanced,Moderate,Medium,Good,No,No,Normal,0
+28,Male,21.5,Balanced,High,Medium,Average,No,No,Normal,0
+34,Female,18.5,Balanced,Moderate,Medium,Poor,No,No,Normal,0
+24,Female,29.1,Irregular,Moderate,Low,Average,Yes,No,Normal,0
+19,Male,28.3,Balanced,Moderate,Low,Average,No,No,Normal,0
+20,Male,16.0,Irregular,Low,Low,Average,No,No,Normal,0
+28,Female,25.3,Fast Food,Moderate,Medium,Poor,No,Yes,High,0
+38,Female,32.0,Balanced,Moderate,High,Average,No,Yes,Normal,0
+20,Male,32.4,Balanced,Moderate,Medium,Poor,No,No,Normal,0
+28,Female,32.2,Balanced,Low,Medium,Poor,No,No,Normal,0
+34,Male,26.2,Irregular,High,Medium,Poor,No,No,Normal,0
+22,Female,20.9,Balanced,Sedentary,Medium,Good,No,Yes,High,0
+34,Female,19.5,Fast Food,Low,Low,Average,No,No,Normal,0
+25,Male,28.1,Irregular,Moderate,High,Average,Yes,No,High,1
+36,Female,28.3,Irregular,High,Low,Average,No,No,High,0
+31,Female,33.7,Balanced,Moderate,Medium,Good,No,No,Normal,0
+30,Female,32.6,Balanced,High,Medium,Average,No,No,Normal,0
+22,Male,25.2,Balanced,Moderate,Medium,Good,No,Yes,Normal,0
+28,Male,18.5,Balanced,Sedentary,High,Average,No,Yes,Normal,0
+37,Male,24.1,Balanced,Sedentary,Low,Poor,Yes,No,Normal,1
+18,Male,27.3,Fast Food,Low,High,Average,No,No,Very High,1
+35,Male,24.8,Irregular,Moderate,Medium,Average,Yes,No,Normal,0
+29,Female,22.5,Fast Food,Moderate,Medium,Good,Yes,No,High,0
+34,Female,27.5,Fast Food,Low,Medium,Good,No,No,Normal,0
+33,Female,23.0,Balanced,Moderate,High,Average,No,No,Very High,0
+27,Male,22.2,Irregular,Sedentary,High,Good,No,Yes,Normal,0
+25,Male,27.9,Fast Food,Low,Medium,Average,No,Yes,Normal,0
+32,Female,23.6,Irregular,Moderate,High,Average,No,No,Normal,0
+21,Male,27.5,Irregular,High,Medium,Average,No,No,Normal,0
+31,Female,27.6,Balanced,Moderate,Medium,Poor,No,No,High,0
+20,Female,19.2,Balanced,Moderate,High,Good,No,No,Normal,0
+32,Male,23.1,Balanced,Sedentary,Medium,Poor,Yes,No,Normal,1
+32,Male,34.6,Balanced,Moderate,Medium,Average,No,No,Normal,1
+19,Male,19.0,Irregular,Low,Low,Average,Yes,No,Normal,0
+35,Male,16.0,Balanced,Low,Low,Poor,No,Yes,Normal,1
+27,Male,16.0,Irregular,Sedentary,High,Poor,No,No,Normal,0
+36,Female,26.2,Fast Food,Moderate,Medium,Average,No,No,Normal,0
+18,Female,26.2,Balanced,Moderate,Medium,Poor,No,No,Normal,0
+22,Female,25.3,Balanced,Low,Low,Average,No,Yes,Normal,0
+29,Female,33.3,Fast Food,Moderate,Medium,Average,Yes,No,High,0
+22,Female,16.0,Fast Food,Sedentary,High,Average,No,No,Normal,1
+25,Male,28.4,Balanced,Moderate,High,Poor,No,No,Normal,0
+33,Male,35.4,Balanced,Sedentary,Low,Good,No,No,Normal,1
+21,Female,19.2,Fast Food,Moderate,Medium,Good,No,Yes,Normal,0
+33,Male,23.7,Balanced,Moderate,Medium,Poor,No,No,Normal,1
+20,Male,21.5,Irregular,High,Medium,Good,No,Yes,Normal,0
+22,Female,20.6,Balanced,Moderate,Medium,Average,No,No,Normal,0
+31,Female,24.0,Balanced,Moderate,Medium,Average,No,No,Normal,0
+36,Female,34.6,Balanced,High,Medium,Good,No,No,Normal,0
+21,Female,37.0,Fast Food,Moderate,Medium,Good,Yes,No,Very High,0
+24,Male,24.0,Fast Food,Moderate,Medium,Good,No,No,Normal,1
+39,Female,37.4,Balanced,Sedentary,Medium,Average,No,No,Normal,0
+40,Female,26.2,Irregular,Low,High,Average,Yes,No,Normal,1
+31,Female,36.5,Balanced,Moderate,Medium,Average,No,Yes,Normal,1
+28,Female,25.4,Balanced,Low,Medium,Poor,No,Yes,High,0
+25,Female,26.8,Balanced,Moderate,High,Average,Yes,No,Normal,1
+32,Male,28.2,Balanced,Low,High,Poor,Yes,No,Normal,1
+31,Male,45.0,Fast Food,Moderate,Low,Average,Yes,No,Normal,1
+24,Male,31.1,Balanced,Low,Medium,Poor,No,No,Normal,0
+18,Male,21.8,Fast Food,Moderate,Low,Poor,Yes,Yes,High,1
+21,Male,31.8,Balanced,Moderate,Medium,Average,No,No,Normal,0
+40,Male,23.8,Irregular,Moderate,Low,Average,Yes,No,High,0
+27,Female,23.1,Balanced,Moderate,Medium,Average,Yes,No,Normal,0
+29,Female,31.5,Irregular,High,Low,Poor,Yes,No,High,0
+28,Female,26.2,Balanced,Moderate,Medium,Average,No,No,Normal,1
+36,Female,27.7,Balanced,Moderate,High,Average,No,No,Normal,0
+19,Female,26.1,Irregular,High,Medium,Good,No,Yes,High,0
+19,Female,28.0,Fast Food,Moderate,High,Average,No,Yes,Normal,0
+24,Male,28.5,Irregular,Low,High,Average,No,No,Normal,1
+29,Female,16.0,Balanced,Sedentary,High,Average,Yes,No,Very High,1
+33,Male,30.0,Fast Food,Moderate,Low,Good,No,No,Normal,0
+29,Male,20.1,Irregular,Low,High,Good,No,No,Normal,0
+28,Female,17.3,Fast Food,Moderate,Low,Average,No,No,Normal,1
+39,Female,25.6,Balanced,Low,Medium,Average,No,Yes,High,1
+21,Male,26.5,Fast Food,Low,High,Poor,No,No,High,1
+31,Male,21.8,Fast Food,High,Medium,Good,No,No,Normal,0
+30,Male,31.0,Irregular,Low,Medium,Average,Yes,No,Normal,0
+28,Male,17.9,Balanced,High,Medium,Average,Yes,No,Normal,0
+36,Male,23.6,Balanced,Sedentary,High,Good,No,No,Normal,1
+24,Female,22.5,Irregular,Moderate,Medium,Good,No,No,High,0
+39,Female,25.7,Fast Food,High,Medium,Poor,No,No,Normal,0
+25,Female,27.7,Fast Food,High,High,Poor,Yes,No,Normal,0
+30,Female,20.0,Balanced,Sedentary,Low,Poor,Yes,No,Normal,1
+29,Female,30.3,Balanced,Moderate,Low,Average,No,No,Normal,0
+37,Female,26.4,Fast Food,Low,Medium,Poor,Yes,No,High,1
+28,Male,16.0,Balanced,Moderate,High,Good,No,No,Normal,0
+24,Male,16.0,Balanced,Moderate,Low,Good,No,No,Normal,0
+18,Female,25.9,Fast Food,Low,Low,Average,Yes,Yes,High,0
+26,Male,24.7,Fast Food,Moderate,Low,Average,No,No,High,0
+37,Male,25.4,Irregular,Low,High,Average,No,No,Normal,0
+18,Male,25.8,Balanced,Sedentary,Low,Poor,No,No,High,0
+38,Female,27.4,Balanced,Moderate,Medium,Good,No,No,Normal,0
+30,Male,31.7,Irregular,Low,High,Poor,No,No,High,0
+21,Female,19.3,Balanced,Low,Low,Poor,No,No,Normal,0
+24,Male,19.0,Balanced,Low,Medium,Average,No,No,Normal,0
+30,Male,19.4,Balanced,Moderate,Medium,Poor,No,No,Normal,0
+25,Male,27.7,Fast Food,Low,High,Average,Yes,No,Normal,1
+20,Male,33.5,Irregular,Moderate,Medium,Good,No,No,Normal,0
+33,Female,23.4,Irregular,Low,Medium,Good,Yes,Yes,Normal,1
+33,Male,16.0,Fast Food,Moderate,Low,Average,No,No,Normal,0
+20,Male,16.0,Balanced,Moderate,Medium,Good,No,No,Normal,0
+24,Female,21.0,Balanced,Moderate,Medium,Average,No,No,Normal,0
+23,Female,22.7,Balanced,Moderate,Low,Good,Yes,No,Normal,0
+33,Male,23.5,Balanced,Low,Medium,Average,No,No,High,1
+34,Female,26.2,Balanced,Low,High,Average,Yes,No,Very High,1
+34,Female,24.1,Balanced,Low,Low,Good,No,No,Normal,0
+39,Male,32.3,Balanced,High,Low,Average,No,No,Normal,1
+35,Female,21.9,Fast Food,Sedentary,Medium,Poor,No,No,Normal,1
+25,Female,20.8,Fast Food,Sedentary,Medium,Average,No,No,Normal,1
+20,Female,28.9,Balanced,Moderate,Low,Average,No,No,High,0
+32,Male,16.8,Balanced,Moderate,Medium,Average,No,No,Normal,1
+39,Male,28.3,Irregular,Moderate,Low,Average,No,No,Normal,0
+40,Male,26.6,Fast Food,High,Medium,Good,No,Yes,Normal,0
+23,Female,25.1,Irregular,High,Medium,Average,No,No,Normal,1
+23,Female,35.5,Balanced,High,Medium,Average,No,No,High,0
+18,Male,22.3,Irregular,High,Low,Average,No,No,Normal,0
+21,Male,38.4,Balanced,Moderate,High,Good,No,No,Normal,1
+30,Female,24.6,Balanced,High,Low,Poor,No,Yes,Normal,1
+30,Female,18.3,Balanced,High,Medium,Poor,No,No,High,1
+26,Female,26.4,Balanced,Moderate,Medium,Average,No,No,Normal,0
+25,Male,19.5,Balanced,Sedentary,Medium,Average,Yes,No,High,0
+37,Female,21.5,Balanced,Low,Low,Good,No,Yes,High,0
+28,Male,28.4,Irregular,Sedentary,Low,Average,No,No,Normal,1
+36,Female,29.3,Balanced,High,Medium,Good,Yes,No,High,1
+40,Male,22.3,Balanced,Low,Low,Average,No,No,Normal,1
+25,Male,31.9,Balanced,Moderate,Low,Poor,No,No,Normal,0
+22,Male,32.9,Balanced,Low,Medium,Poor,Yes,No,Normal,0
+39,Female,34.6,Balanced,High,High,Poor,Yes,No,Normal,0
+32,Female,29.2,Balanced,High,Low,Average,Yes,No,Normal,1
+24,Male,34.2,Balanced,Moderate,High,Average,No,No,Normal,0
+32,Female,16.0,Irregular,High,Medium,Average,No,No,Normal,0
+29,Male,24.1,Irregular,Low,High,Average,Yes,No,Normal,1
+38,Male,20.8,Balanced,Moderate,Medium,Average,Yes,No,Normal,0
+23,Male,26.7,Fast Food,Moderate,Medium,Average,No,No,Normal,0
+40,Female,22.6,Irregular,Low,Medium,Average,No,No,Normal,0
+39,Male,25.0,Irregular,Moderate,Medium,Average,No,Yes,Very High,0
+22,Female,37.3,Fast Food,Moderate,High,Average,No,No,High,0
+21,Male,25.0,Irregular,Moderate,Low,Average,No,No,Normal,0
+30,Male,28.5,Irregular,Moderate,Medium,Average,No,Yes,Normal,1
+19,Male,24.6,Irregular,High,Low,Average,No,No,Normal,0
+24,Female,26.5,Balanced,Moderate,High,Average,No,No,High,0
+28,Male,26.0,Balanced,High,Medium,Average,No,No,Normal,0
+40,Female,28.7,Balanced,Moderate,Medium,Average,No,No,High,0
+40,Female,33.0,Balanced,Moderate,High,Poor,No,No,Normal,1
+21,Male,35.9,Balanced,Moderate,High,Average,No,No,Normal,1
+38,Female,27.9,Balanced,Moderate,Low,Good,Yes,No,High,1
+20,Female,29.5,Fast Food,Moderate,Medium,Poor,No,Yes,Normal,1
+35,Male,19.1,Fast Food,Moderate,High,Good,No,No,High,0
+37,Male,25.5,Irregular,Low,Low,Poor,No,No,Normal,0
+38,Male,31.6,Balanced,Moderate,Medium,Average,No,Yes,Normal,0
+23,Female,31.2,Balanced,Moderate,Medium,Average,No,No,Normal,0
+38,Male,27.3,Irregular,Moderate,Medium,Poor,No,Yes,Normal,1
+20,Female,31.3,Irregular,High,Medium,Good,No,No,Normal,0
+29,Female,28.9,Irregular,Moderate,Low,Average,No,No,Normal,0
+28,Female,33.2,Irregular,Sedentary,Low,Good,No,No,Normal,0
+25,Male,27.7,Irregular,High,Low,Average,No,No,Normal,1
+18,Female,23.9,Balanced,Sedentary,Low,Good,No,No,Normal,1
+35,Male,28.0,Balanced,High,Medium,Good,No,Yes,Normal,0
+25,Male,16.0,Balanced,Low,Medium,Average,No,Yes,Normal,1
+33,Male,28.3,Fast Food,Moderate,Low,Average,No,No,Normal,0
+27,Male,16.0,Irregular,Low,Medium,Average,No,No,High,0
+26,Male,16.0,Balanced,High,Medium,Average,No,No,Normal,0
+38,Male,28.7,Fast Food,Moderate,Medium,Good,No,Yes,Normal,1
+20,Male,28.9,Balanced,Moderate,High,Average,Yes,No,High,1
+34,Male,19.0,Balanced,Sedentary,Medium,Average,Yes,Yes,Normal,0
+35,Female,21.7,Balanced,Low,High,Poor,Yes,No,Normal,0
+26,Male,34.2,Balanced,Moderate,Low,Average,No,No,Normal,0
+24,Female,23.1,Irregular,High,Medium,Good,No,No,Normal,0
+18,Female,39.5,Balanced,Low,High,Poor,No,No,Normal,1
+39,Female,26.0,Irregular,Moderate,High,Good,No,No,High,0
+39,Female,28.4,Fast Food,High,Medium,Good,No,Yes,Very High,1
+23,Female,35.7,Balanced,Low,Medium,Poor,No,No,Normal,0
+18,Female,26.8,Balanced,Moderate,Medium,Poor,No,No,Normal,1
+20,Female,20.0,Irregular,Moderate,Medium,Average,No,No,High,0
+19,Female,25.3,Balanced,Moderate,Medium,Average,No,No,Normal,0
+37,Male,25.8,Irregular,Low,High,Poor,Yes,No,Normal,1
+38,Male,17.8,Balanced,Sedentary,Medium,Good,No,Yes,Normal,0
+21,Female,24.5,Fast Food,High,Low,Average,Yes,Yes,Normal,1
+35,Male,21.5,Irregular,Low,Medium,Good,No,No,Normal,0
+22,Female,31.5,Balanced,Moderate,Low,Good,No,No,Normal,0
+26,Male,26.2,Balanced,Moderate,Low,Good,No,No,Normal,0
+31,Male,24.3,Irregular,High,Medium,Average,No,Yes,Normal,0
+34,Female,25.4,Balanced,Moderate,Medium,Average,No,No,High,1
+38,Female,27.3,Balanced,Low,Low,Average,No,No,Normal,0
+19,Female,29.7,Balanced,Low,Low,Poor,No,Yes,Normal,1
+22,Male,20.0,Balanced,Sedentary,Low,Average,No,Yes,Normal,0
+24,Female,19.8,Irregular,Moderate,High,Poor,No,No,Normal,0
+25,Female,32.6,Irregular,High,Medium,Average,Yes,No,Very High,1
+40,Female,23.5,Balanced,Moderate,Low,Poor,No,No,High,1
+35,Female,17.5,Irregular,Sedentary,Low,Average,No,No,Normal,0
+25,Female,28.7,Balanced,Low,Medium,Average,No,No,Normal,0
+40,Female,28.8,Balanced,Low,Low,Average,No,No,Normal,0
+29,Male,16.8,Fast Food,Sedentary,Medium,Good,No,No,Normal,0
+29,Female,27.4,Irregular,Sedentary,Medium,Poor,No,No,Normal,0
+27,Female,30.4,Balanced,Moderate,High,Good,Yes,No,Normal,0
+21,Female,28.2,Balanced,Moderate,Low,Good,No,No,Normal,0
+39,Female,29.8,Fast Food,Moderate,Medium,Average,No,Yes,Normal,1
+18,Female,17.6,Irregular,Moderate,Low,Average,No,No,Normal,0
+22,Male,28.0,Balanced,Low,High,Average,Yes,Yes,Normal,1
+23,Female,24.2,Balanced,High,High,Poor,Yes,No,Normal,0
+24,Male,23.1,Fast Food,Moderate,Medium,Average,Yes,No,Normal,0
+21,Male,31.2,Balanced,High,Medium,Poor,No,Yes,Normal,1
+18,Female,34.9,Balanced,Low,Low,Good,No,No,Normal,0
+33,Female,36.8,Balanced,Low,High,Good,No,No,Normal,0
+40,Male,33.9,Balanced,Moderate,Medium,Good,Yes,No,Normal,1
+20,Male,25.3,Balanced,Moderate,Low,Average,No,No,High,0
+24,Male,28.1,Irregular,Moderate,Medium,Average,No,No,High,0
+29,Male,30.6,Fast Food,Low,Medium,Good,No,No,Normal,0
+39,Male,26.7,Fast Food,Sedentary,High,Average,No,No,Normal,0
+33,Male,26.8,Irregular,High,Medium,Poor,No,No,High,0
+35,Female,30.9,Balanced,High,Medium,Average,No,No,Normal,0
+31,Female,25.6,Balanced,Low,Medium,Average,No,No,Normal,1
+27,Female,21.6,Irregular,Moderate,Low,Average,Yes,No,Normal,0
+22,Male,23.5,Balanced,Moderate,Medium,Poor,No,No,Normal,0
+37,Male,29.8,Fast Food,Moderate,Low,Average,Yes,No,Normal,0
+36,Male,26.0,Irregular,Moderate,Medium,Average,No,No,Normal,0
+18,Female,28.0,Balanced,Low,Medium,Poor,Yes,No,Normal,0
+34,Male,30.0,Balanced,Moderate,Medium,Poor,No,No,Normal,0
+19,Male,23.8,Balanced,Moderate,Low,Average,Yes,No,Normal,0
+34,Male,30.5,Balanced,Moderate,Low,Good,No,No,Normal,0
+36,Female,28.3,Balanced,Low,Medium,Average,No,Yes,Normal,1
+21,Male,18.6,Balanced,Moderate,Low,Average,No,Yes,Normal,1
+27,Male,34.7,Irregular,Moderate,Low,Good,No,No,Normal,0
+20,Female,23.0,Irregular,Moderate,Medium,Average,No,No,Normal,0
+31,Female,16.1,Irregular,Moderate,Medium,Good,Yes,No,High,1
+39,Male,19.7,Balanced,Moderate,Medium,Average,Yes,Yes,Normal,1
+19,Male,19.9,Balanced,High,Medium,Average,No,Yes,Normal,0
+27,Female,26.3,Balanced,Moderate,High,Poor,No,No,Normal,0
+40,Female,24.4,Balanced,Moderate,Medium,Poor,No,No,High,0
+24,Female,24.0,Irregular,Sedentary,Medium,Good,Yes,No,High,0
+21,Male,29.7,Balanced,Moderate,High,Good,Yes,Yes,High,0
+29,Male,28.0,Balanced,Sedentary,Medium,Good,No,Yes,Normal,0
+29,Female,27.9,Irregular,High,Medium,Good,Yes,No,Normal,0
+33,Male,28.5,Balanced,Low,Medium,Poor,No,No,Normal,0
+25,Male,29.7,Balanced,Moderate,Medium,Good,Yes,No,Normal,0
+39,Female,16.0,Balanced,Moderate,Medium,Average,Yes,No,Normal,0
+29,Female,23.8,Fast Food,Sedentary,Medium,Good,Yes,Yes,Normal,1
+24,Male,16.0,Irregular,Moderate,Medium,Poor,No,No,Normal,0
+40,Female,26.2,Balanced,Low,Low,Average,No,No,High,1
+39,Male,26.0,Irregular,Moderate,Medium,Good,No,No,Normal,0
+29,Female,32.3,Irregular,Low,Low,Good,Yes,No,Normal,0
+18,Female,33.1,Irregular,High,Medium,Average,No,Yes,Normal,1
+31,Male,27.2,Balanced,Moderate,Medium,Average,No,No,High,0
+30,Female,23.0,Balanced,High,High,Average,Yes,Yes,High,1
+21,Male,28.9,Irregular,High,Low,Good,No,No,Normal,0
+32,Female,22.8,Balanced,Moderate,Medium,Average,No,No,Very High,0
+37,Male,26.0,Fast Food,Moderate,Medium,Average,No,No,High,0
+20,Male,31.9,Irregular,High,Low,Average,No,No,High,0
+34,Female,22.7,Balanced,High,Low,Average,No,No,High,0
+21,Female,30.8,Irregular,High,Low,Average,No,No,Normal,0
+35,Male,30.1,Irregular,Low,Low,Average,No,No,High,0
+27,Female,20.3,Fast Food,Moderate,Low,Good,No,No,Normal,0
+18,Female,31.8,Balanced,Low,Medium,Good,No,No,High,0
+40,Male,30.2,Irregular,High,Medium,Good,No,No,Normal,0
+21,Female,26.6,Fast Food,Moderate,Low,Average,No,Yes,High,0
+31,Female,21.4,Fast Food,Moderate,Low,Average,No,Yes,Very High,0
+22,Male,20.8,Irregular,Low,Low,Good,No,No,Normal,0
+39,Male,22.8,Fast Food,Moderate,Medium,Good,Yes,No,Very High,1
+34,Female,29.3,Balanced,High,Medium,Average,No,No,Normal,1
+36,Male,20.3,Balanced,Low,Medium,Average,No,Yes,Normal,0
+27,Female,28.6,Balanced,Low,Low,Good,Yes,No,Normal,0
+28,Female,18.5,Fast Food,High,Low,Average,No,No,High,0
+32,Male,24.8,Fast Food,High,High,Good,No,No,Normal,0
+36,Male,26.7,Fast Food,Low,Low,Average,No,Yes,Normal,1
+37,Female,40.7,Balanced,Moderate,Low,Average,No,No,Normal,0
+18,Male,17.7,Irregular,Sedentary,Low,Average,No,No,Normal,1
+33,Male,34.8,Irregular,High,High,Poor,Yes,No,Normal,1
+20,Female,26.9,Balanced,Moderate,Medium,Good,Yes,No,High,0
+24,Female,28.5,Fast Food,Moderate,Medium,Average,No,Yes,Normal,1
+37,Female,26.7,Fast Food,Moderate,High,Poor,No,No,High,1
+23,Female,28.7,Fast Food,Low,Low,Good,No,No,Normal,1
+36,Female,25.1,Balanced,High,High,Good,No,No,Very High,0
+28,Male,34.7,Irregular,Low,Low,Good,No,No,Normal,1
+23,Female,23.3,Irregular,Low,Medium,Average,No,No,Normal,0
+25,Female,32.8,Fast Food,High,Medium,Good,Yes,No,Normal,0
+30,Female,22.1,Irregular,Sedentary,Medium,Average,No,Yes,Normal,1
+35,Female,25.6,Irregular,High,High,Average,No,No,Normal,0
+31,Male,19.6,Balanced,Moderate,Low,Poor,No,No,High,0
+39,Female,28.7,Fast Food,Moderate,High,Average,No,No,Normal,1
+37,Male,34.7,Balanced,Moderate,Medium,Good,Yes,No,Normal,0
+35,Female,25.5,Irregular,Moderate,Medium,Average,No,No,Normal,1
+31,Male,24.8,Balanced,Moderate,High,Average,Yes,No,Very High,1
+24,Male,19.3,Balanced,Moderate,Low,Good,Yes,No,Normal,0
+27,Male,24.6,Irregular,Moderate,High,Average,Yes,No,Normal,0
+20,Female,16.4,Balanced,High,Medium,Average,No,No,Normal,0
+26,Female,20.5,Irregular,Sedentary,Medium,Good,No,No,Normal,1
+39,Male,27.4,Balanced,Low,Low,Good,Yes,No,Normal,0
+27,Male,33.9,Irregular,Moderate,Medium,Good,Yes,No,Normal,0
+20,Male,42.9,Irregular,Low,Medium,Good,No,Yes,Normal,1
+32,Male,22.5,Balanced,Moderate,Medium,Good,Yes,No,Normal,0
+40,Female,34.6,Irregular,Moderate,Low,Good,No,No,Normal,0
+37,Male,27.5,Balanced,Low,Low,Average,No,No,Normal,1
+24,Male,25.1,Fast Food,High,High,Poor,Yes,No,High,0
+28,Male,28.6,Fast Food,Moderate,Low,Average,No,No,Normal,1
+30,Male,26.4,Irregular,Sedentary,Medium,Good,No,No,Normal,0
+23,Female,26.7,Balanced,Low,High,Average,Yes,No,Normal,0
+24,Female,23.6,Balanced,Low,Low,Good,Yes,No,Normal,0
+23,Male,17.6,Fast Food,Moderate,Low,Poor,Yes,No,High,1
+40,Female,16.7,Fast Food,Low,Medium,Average,No,No,Normal,0
+35,Male,29.9,Balanced,Moderate,Low,Average,Yes,No,Normal,0
+37,Male,24.3,Balanced,Sedentary,Medium,Average,No,No,Normal,0
+36,Male,22.4,Balanced,Low,Medium,Poor,No,Yes,Normal,1
+40,Male,26.1,Irregular,Low,Medium,Poor,No,No,High,0
+20,Male,30.8,Balanced,Moderate,Medium,Good,Yes,No,Normal,1
+38,Female,27.1,Balanced,Moderate,Medium,Average,Yes,No,Normal,0
+19,Female,22.1,Irregular,Moderate,Medium,Poor,Yes,No,High,1
+28,Female,33.4,Balanced,Moderate,Low,Poor,No,Yes,High,1
+31,Male,35.5,Fast Food,High,Medium,Average,No,No,Normal,0
+26,Male,29.0,Balanced,Low,High,Poor,No,No,Normal,0
+21,Male,31.8,Irregular,Moderate,Medium,Good,No,Yes,Normal,0
+22,Male,33.5,Fast Food,Moderate,Medium,Good,No,No,High,0
+36,Male,32.8,Irregular,High,Medium,Average,No,No,Normal,0
+25,Female,29.7,Balanced,Moderate,Low,Average,Yes,No,Normal,0
+25,Female,29.6,Fast Food,Moderate,Low,Poor,Yes,No,High,0
+39,Female,29.1,Irregular,Low,Low,Average,Yes,No,Normal,1
+21,Female,19.4,Balanced,Low,High,Good,No,No,Normal,0
+39,Female,30.2,Balanced,Low,Low,Average,No,No,Normal,0
+39,Female,17.9,Balanced,High,High,Good,No,No,High,0
+31,Male,21.2,Irregular,Moderate,Low,Average,No,No,Normal,0
+21,Female,33.8,Fast Food,High,Low,Average,No,No,Normal,0
+21,Female,31.0,Fast Food,Low,Medium,Average,No,No,Normal,0
+24,Female,34.9,Fast Food,High,Medium,Average,No,No,High,0
+31,Female,24.4,Fast Food,High,Medium,Good,No,No,High,0
+21,Male,19.1,Balanced,Low,High,Poor,No,Yes,Normal,0
+28,Female,24.6,Balanced,Low,High,Good,No,No,Normal,0
+20,Male,26.6,Fast Food,Low,Low,Good,No,No,High,0
+30,Female,26.5,Balanced,High,Medium,Average,No,No,High,0
+18,Female,32.8,Irregular,Low,Low,Average,No,No,Normal,0
+34,Female,23.8,Irregular,Moderate,High,Average,No,No,Normal,0
+19,Male,28.1,Balanced,Moderate,Medium,Average,No,Yes,High,0
+22,Female,20.1,Fast Food,High,Medium,Good,No,No,High,0
+22,Female,28.7,Balanced,Moderate,Low,Average,Yes,No,Normal,0
+37,Male,26.0,Irregular,Moderate,Low,Good,No,Yes,Normal,0
+19,Male,21.5,Irregular,Sedentary,Low,Average,No,No,Normal,0
+27,Female,24.6,Irregular,Low,High,Average,No,Yes,High,1
+31,Female,24.9,Balanced,High,Medium,Good,No,No,Normal,0
+29,Female,24.4,Balanced,Low,High,Average,No,No,Normal,0
+33,Female,36.6,Balanced,Moderate,Low,Good,Yes,Yes,Normal,0
+36,Male,25.4,Balanced,High,Medium,Poor,No,No,High,0
+27,Female,24.5,Balanced,Moderate,Low,Good,No,No,High,0
+37,Male,16.0,Balanced,Moderate,Medium,Good,No,No,Very High,0
+25,Female,20.6,Irregular,Moderate,Medium,Good,No,No,Normal,0
+40,Male,24.4,Balanced,Moderate,Low,Average,No,No,High,0
+29,Female,21.9,Balanced,Moderate,Medium,Good,No,No,High,0
+34,Male,34.3,Irregular,Moderate,Low,Average,No,No,Normal,1
+38,Female,25.0,Fast Food,Moderate,Medium,Good,Yes,No,Normal,0
+36,Male,33.7,Irregular,Moderate,Medium,Poor,Yes,No,Very High,1
+37,Male,26.4,Fast Food,Moderate,Low,Average,Yes,No,Normal,0
+30,Female,26.2,Irregular,Moderate,High,Average,No,No,Normal,1
+18,Male,25.5,Fast Food,Moderate,Medium,Average,Yes,No,Normal,1
+29,Female,26.0,Fast Food,Low,High,Average,No,No,Normal,0
+22,Female,36.3,Fast Food,High,Medium,Good,No,No,Normal,1
+38,Female,16.0,Balanced,Moderate,Medium,Average,Yes,No,High,0
+23,Male,16.0,Balanced,Low,Medium,Good,No,No,Normal,0
+23,Male,22.7,Balanced,Moderate,High,Poor,Yes,No,High,0
+23,Male,26.1,Balanced,High,Medium,Good,Yes,No,Normal,0
+32,Female,30.1,Irregular,Low,Low,Good,No,Yes,Normal,0
+31,Female,28.8,Balanced,Low,Low,Average,No,Yes,High,1
+39,Female,23.7,Balanced,Low,Medium,Good,No,No,Normal,0
+27,Female,32.1,Balanced,Low,Low,Good,Yes,Yes,Normal,1
+24,Male,32.2,Irregular,High,Low,Good,Yes,Yes,High,1
+19,Male,27.1,Balanced,Sedentary,Low,Average,No,No,Normal,0
+18,Male,31.8,Fast Food,Low,Medium,Average,No,No,Normal,0
+26,Male,27.6,Irregular,High,Low,Good,No,No,Normal,1
+39,Male,22.6,Balanced,Low,Medium,Average,No,No,High,0
+30,Male,30.2,Irregular,Moderate,Medium,Good,No,No,Normal,0
+38,Male,26.7,Balanced,High,High,Average,Yes,No,Normal,1
+20,Male,26.0,Balanced,Moderate,Medium,Good,No,No,Very High,1
+20,Female,34.8,Fast Food,Low,Medium,Poor,Yes,Yes,Normal,0
+37,Female,16.0,Irregular,Moderate,Medium,Poor,No,No,Normal,0
+20,Female,17.5,Balanced,Sedentary,Medium,Good,No,No,Normal,0
+19,Male,18.9,Fast Food,Moderate,Medium,Good,No,No,Normal,0
+27,Male,23.8,Balanced,Low,Low,Good,Yes,No,Normal,1
+39,Male,24.5,Fast Food,Low,High,Good,No,Yes,Normal,0
+33,Male,17.0,Fast Food,Moderate,Low,Average,No,No,Normal,0
+20,Female,20.1,Fast Food,Moderate,High,Average,No,No,Normal,0
+37,Female,20.8,Fast Food,High,Medium,Poor,Yes,No,Normal,0
+37,Male,40.7,Balanced,High,Low,Average,No,No,Normal,0
+36,Male,36.8,Fast Food,High,Medium,Average,No,No,Normal,0
+38,Male,23.5,Fast Food,High,Low,Good,Yes,Yes,Normal,0
+23,Male,23.8,Fast Food,Low,Medium,Poor,Yes,No,High,1
+40,Female,19.1,Balanced,Moderate,Medium,Poor,No,No,Normal,0
+25,Female,16.0,Balanced,Moderate,Low,Average,No,No,Normal,0
+36,Female,25.3,Balanced,Moderate,Low,Poor,No,No,Normal,1
+31,Female,20.0,Balanced,Sedentary,Medium,Average,No,No,High,1
+35,Female,25.5,Balanced,Moderate,Low,Average,No,No,Normal,0
+32,Female,16.4,Balanced,Sedentary,High,Average,No,No,High,1
+32,Female,21.4,Fast Food,Moderate,Medium,Average,No,No,Normal,0

@@ -1,0 +1,358 @@
+{% extends 'base.html' %}
+{% block content %}
+<!-- Header Section -->
+<div class="row mb-4">
+	<div class="col-12">
+		<h2 class="fw-bold text-primary mb-2">Lifestyle & Health Assessment</h2>
+		<p class="text-secondary">Complete all fields to receive your personalized diabetes risk analysis and AI-powered recommendations.</p>
+	</div>
+</div>
+
+<div class="row g-4">
+	<!-- Assessment Form -->
+	<div class="col-lg-8">
+		<div class="card shadow-sm h-100">
+			<div class="card-body p-4">
+				<h5 class="card-title text-primary mb-4"><i class="bi bi-clipboard-data"></i> Your Health Profile</h5>
+				<form method="post" action="{{ url_for('predict') }}" id="assessment-form" class="row g-3">
+					<!-- Basic Information -->
+					<div class="col-12">
+						<h6 class="text-secondary fw-bold border-bottom pb-2"><i class="bi bi-person-badge"></i> Basic Information</h6>
+					</div>
+					<div class="col-md-6">
+						<label class="form-label fw-semibold">Age <span class="text-danger">*</span></label>
+						<input type="number" class="form-control" name="Age" min="15" max="40" required placeholder="Enter your age">
+						<small class="text-muted">Age between 15-40 years</small>
+					</div>
+					<div class="col-md-6">
+						<label class="form-label fw-semibold">Gender <span class="text-danger">*</span></label>
+						<select class="form-select" name="Gender" required>
+							<option value="">Select gender</option>
+							<option>Male</option>
+							<option>Female</option>
+						</select>
+					</div>
+
+					<!-- Physical Metrics -->
+					<div class="col-12 mt-4">
+						<h6 class="text-secondary fw-bold border-bottom pb-2"><i class="bi bi-rulers"></i> Physical Metrics</h6>
+					</div>
+					<div class="col-md-4">
+						<label class="form-label fw-semibold">Height (cm) <span class="text-danger">*</span></label>
+						<input type="number" class="form-control" name="Height" id="height" min="120" max="220" required placeholder="e.g., 170">
+					</div>
+					<div class="col-md-4">
+						<label class="form-label fw-semibold">Weight (kg) <span class="text-danger">*</span></label>
+						<input type="number" class="form-control" name="Weight" id="weight" min="30" max="200" required placeholder="e.g., 65">
+					</div>
+					<div class="col-md-4">
+						<label class="form-label fw-semibold">BMI (auto-calculated)</label>
+						<input type="number" class="form-control bg-light" name="BMI" id="bmi" step="0.1" readonly placeholder="Auto">
+					</div>
+
+					<!-- Lifestyle Factors -->
+					<div class="col-12 mt-4">
+						<h6 class="text-secondary fw-bold border-bottom pb-2"><i class="bi bi-heart-pulse"></i> Lifestyle Factors</h6>
+					</div>
+					<div class="col-md-6">
+						<label class="form-label fw-semibold">Physical Activity <span class="text-danger">*</span></label>
+						<select class="form-select" name="Physical_Activity" required>
+							<option value="">Select activity level</option>
+							<option>Sedentary</option>
+							<option>Low</option>
+							<option selected>Moderate</option>
+							<option>High</option>
+						</select>
+					</div>
+					<div class="col-md-6">
+						<label class="form-label fw-semibold">Diet Type <span class="text-danger">*</span></label>
+						<select class="form-select" name="Diet_Type" required>
+							<option value="">Select diet type</option>
+							<option selected>Balanced</option>
+							<option>Irregular</option>
+							<option>Fast Food</option>
+						</select>
+					</div>
+					<div class="col-md-6">
+						<label class="form-label fw-semibold">Smoking Status <span class="text-danger">*</span></label>
+						<select class="form-select" name="Smoking_Status" required>
+							<option value="">Select smoking status</option>
+							<option selected>Never</option>
+							<option>Occasional</option>
+							<option>Regular</option>
+						</select>
+					</div>
+					<div class="col-md-6">
+						<label class="form-label fw-semibold">Alcohol Intake <span class="text-danger">*</span></label>
+						<select class="form-select" name="Alcohol_Intake" required>
+							<option value="">Select alcohol intake</option>
+							<option selected>None</option>
+							<option>Social</option>
+							<option>Frequent</option>
+						</select>
+					</div>
+
+					<!-- Mental & Sleep Health -->
+					<div class="col-12 mt-4">
+						<h6 class="text-secondary fw-bold border-bottom pb-2"><i class="bi bi-brain"></i> Mental & Sleep Health</h6>
+					</div>
+					<div class="col-md-6">
+						<label class="form-label fw-semibold">Stress Level <span class="text-danger">*</span></label>
+						<select class="form-select" name="Stress_Level" required>
+							<option value="">Select stress level</option>
+							<option>Low</option>
+							<option selected>Medium</option>
+							<option>High</option>
+						</select>
+					</div>
+					<div class="col-md-6">
+						<label class="form-label fw-semibold">Sleep Quality <span class="text-danger">*</span></label>
+						<select class="form-select" name="Sleep_Quality" required>
+							<option value="">Select sleep quality</option>
+							<option>Poor</option>
+							<option selected>Average</option>
+							<option>Good</option>
+						</select>
+					</div>
+
+					<!-- Medical History -->
+					<div class="col-12 mt-4">
+						<h6 class="text-secondary fw-bold border-bottom pb-2"><i class="bi bi-heart-pulse-fill"></i> Medical History</h6>
+					</div>
+					<div class="col-md-6">
+						<label class="form-label fw-semibold">Family History of Diabetes <span class="text-danger">*</span></label>
+						<select class="form-select" name="Family_History" required>
+							<option value="">Select option</option>
+							<option selected>No</option>
+							<option>Yes</option>
+						</select>
+					</div>
+					<div class="col-md-6">
+						<label class="form-label fw-semibold">Hypertension <span class="text-danger">*</span></label>
+						<select class="form-select" name="Hypertension" required>
+							<option value="">Select option</option>
+							<option selected>No</option>
+							<option>Yes</option>
+						</select>
+					</div>
+					<div class="col-md-6">
+						<label class="form-label fw-semibold">Cholesterol Level <span class="text-danger">*</span></label>
+						<select class="form-select" name="Cholesterol_Level" required>
+							<option value="">Select cholesterol level</option>
+							<option selected>Normal</option>
+							<option>High</option>
+							<option>Very High</option>
+						</select>
+					</div>
+
+					<!-- Submit Button -->
+					<div class="col-12 mt-4">
+						<button class="btn btn-primary btn-lg w-100" type="submit">
+							<i class="bi bi-cpu"></i> Generate Risk Assessment & AI Recommendations
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- Legend & Information Panel -->
+	<div class="col-lg-4">
+		<div class="card shadow-sm mb-3 sticky-top" style="top: 20px;">
+			<div class="card-body">
+				<h5 class="card-title text-primary mb-3"><i class="bi bi-info-circle"></i> Field Guide</h5>
+				
+				<div class="accordion accordion-flush" id="fieldGuide">
+					<!-- Physical Activity -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#activity">
+								<strong>Physical Activity</strong>
+							</button>
+						</h2>
+						<div id="activity" class="accordion-collapse collapse" data-bs-parent="#fieldGuide">
+							<div class="accordion-body small">
+								<ul class="mb-0">
+									<li><strong>Sedentary:</strong> Little to no exercise</li>
+									<li><strong>Low:</strong> Light exercise 1-2 days/week</li>
+									<li><strong>Moderate:</strong> Moderate exercise 3-5 days/week</li>
+									<li><strong>High:</strong> Intense exercise 6-7 days/week</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<!-- Diet Type -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#diet">
+								<strong>Diet Type</strong>
+							</button>
+						</h2>
+						<div id="diet" class="accordion-collapse collapse" data-bs-parent="#fieldGuide">
+							<div class="accordion-body small">
+								<ul class="mb-0">
+									<li><strong>Balanced:</strong> Regular meals with fruits, vegetables, whole grains, and proteins</li>
+									<li><strong>Irregular:</strong> Skipped meals, inconsistent eating patterns</li>
+									<li><strong>Fast Food:</strong> Frequent consumption of processed/fast food</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<!-- Stress Level -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#stress">
+								<strong>Stress Level</strong>
+							</button>
+						</h2>
+						<div id="stress" class="accordion-collapse collapse" data-bs-parent="#fieldGuide">
+							<div class="accordion-body small">
+								<ul class="mb-0">
+									<li><strong>Low:</strong> Minimal daily stress, good coping mechanisms</li>
+									<li><strong>Medium:</strong> Moderate stress, manageable most days</li>
+									<li><strong>High:</strong> Chronic stress, difficulty managing</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<!-- Sleep Quality -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sleep">
+								<strong>Sleep Quality</strong>
+							</button>
+						</h2>
+						<div id="sleep" class="accordion-collapse collapse" data-bs-parent="#fieldGuide">
+							<div class="accordion-body small">
+								<ul class="mb-0">
+									<li><strong>Poor:</strong> Less than 6 hours, frequent disruptions</li>
+									<li><strong>Average:</strong> 6-7 hours, occasional disruptions</li>
+									<li><strong>Good:</strong> 7-9 hours, restful and uninterrupted</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<!-- Cholesterol Level -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cholesterol">
+								<strong>Cholesterol Level</strong>
+							</button>
+						</h2>
+						<div id="cholesterol" class="accordion-collapse collapse" data-bs-parent="#fieldGuide">
+							<div class="accordion-body small">
+								<div class="mb-3">
+									<strong>Reference Ranges:</strong>
+									<ul class="mb-2">
+										<li><strong>Normal:</strong> Total cholesterol below 200 mg/dL</li>
+										<li><strong>High:</strong> Total cholesterol 200-239 mg/dL</li>
+										<li><strong>Very High:</strong> Total cholesterol 240 mg/dL or above</li>
+									</ul>
+								</div>
+
+								<div class="mb-3">
+									<strong>1️⃣ Medical Check (Accurate Method):</strong>
+									<ul class="mb-0">
+										<li>Cholesterol levels are measured through a blood test (Lipid Profile)</li>
+										<li>Available at any clinic, pathology lab, or health camp</li>
+										<li>Report shows Total Cholesterol, LDL, HDL, and Triglycerides</li>
+									</ul>
+								</div>
+
+								<div class="mb-2">
+									<strong>2️⃣ Home Estimation (Without Test):</strong>
+								</div>
+
+								<div class="alert alert-warning py-2 px-2 mb-2">
+									<small><strong>You may have higher cholesterol if:</strong></small>
+									<ul class="mb-0 small">
+										<li>You often eat fried, processed, or fatty foods</li>
+										<li>You're overweight or have belly fat</li>
+										<li>You rarely exercise or walk</li>
+										<li>You have high blood pressure or diabetes</li>
+										<li>You feel tired easily or get chest discomfort sometimes</li>
+										<li>Your parents or siblings have heart/cholesterol issues</li>
+									</ul>
+								</div>
+
+								<div class="alert alert-success py-2 px-2 mb-0">
+									<small><strong>You're likely to have normal cholesterol if:</strong></small>
+									<ul class="mb-0 small">
+										<li>You eat balanced meals with fruits, vegetables, and whole grains</li>
+										<li>You exercise or walk regularly</li>
+										<li>You don't smoke or drink often</li>
+										<li>You maintain a healthy weight</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Smoking & Alcohol -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#habits">
+								<strong>Smoking & Alcohol</strong>
+							</button>
+						</h2>
+						<div id="habits" class="accordion-collapse collapse" data-bs-parent="#fieldGuide">
+							<div class="accordion-body small">
+								<p class="mb-2"><strong>Smoking:</strong></p>
+								<ul class="mb-2">
+									<li><strong>Never:</strong> No smoking history</li>
+									<li><strong>Occasional:</strong> Less than weekly</li>
+									<li><strong>Regular:</strong> Daily or frequent use</li>
+								</ul>
+								<p class="mb-2"><strong>Alcohol:</strong></p>
+								<ul class="mb-0">
+									<li><strong>None:</strong> No alcohol consumption</li>
+									<li><strong>Social:</strong> Occasional, 1-2 drinks/week</li>
+									<li><strong>Frequent:</strong> Regular consumption, 3+ drinks/week</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Tips Card -->
+				<div class="alert alert-info mt-3 mb-0" role="alert">
+					<h6 class="alert-heading"><i class="bi bi-lightbulb"></i> Tips</h6>
+					<small>
+						<ul class="mb-0 ps-3">
+							<li>Be honest with your responses for accurate results</li>
+							<li>BMI calculates automatically based on height & weight</li>
+							<li>All fields marked with <span class="text-danger">*</span> are required</li>
+						</ul>
+					</small>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+// Auto-calculate BMI
+const heightInput = document.getElementById('height');
+const weightInput = document.getElementById('weight');
+const bmiInput = document.getElementById('bmi');
+
+function calculateBMI() {
+	const height = parseFloat(heightInput.value);
+	const weight = parseFloat(weightInput.value);
+	if (height > 0 && weight > 0) {
+		const heightInMeters = height / 100;
+		const bmi = (weight / (heightInMeters * heightInMeters)).toFixed(1);
+		bmiInput.value = bmi;
+	} else {
+		bmiInput.value = '';
+	}
+}
+
+heightInput.addEventListener('input', calculateBMI);
+weightInput.addEventListener('input', calculateBMI);
+</script>
+{% endblock %}
