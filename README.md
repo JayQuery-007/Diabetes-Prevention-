@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # Diabetes-Prevention-
-=======
+
 # Diabetes Prevention and Risk Assessment (Young Adults)
 
 Python Flask web app that predicts diabetes risk from lifestyle and stress factors and generates AI-backed recommendations using Gemini.
@@ -56,4 +56,5 @@ Kaggle: `https://www.kaggle.com/datasets/ankushpanday1/diabetes-in-youth-vs-adul
 ## Notes
 - If no model is found, the app uses a heuristic aligned to the requested risk bands.
 - The tool is educational and not a medical diagnosis.
->>>>>>> 96c8e7c (Diabetes)
+Heuristic Based, May not produce best results.
+
